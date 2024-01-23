@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between p-4 text-white bg-gradient-to-r from-green-700 to-blue-400">
+    <div className="flex items-center justify-between p-4 text-white bg-gradient-to-r from-green-700 to-yellow-400">
       <div className="w-[95%] mx-auto">
         <div className="flex items-center justify-between">
           <div>
@@ -18,14 +18,14 @@ const Navbar = () => {
 
           <div className="flex gap-2">
             <Link
-              className="px-4 py-3 font-bold text-blue-500 bg-white border-2 border-blue-500 rounded-lg hover:bg-blue-500 hover:text-white"
+              className="px-4 py-3 font-bold text-pink-500 bg-white border-2 border-pink-500 rounded-lg hover:bg-pink-500 hover:text-white"
               to={"/login"}
             >
               Login
             </Link>
 
             <Link
-              className="px-4 py-3 font-bold text-blue-500 bg-white border-2 border-blue-500 rounded-lg hover:bg-blue-500 hover:text-white"
+              className="px-4 py-3 font-bold text-pink-500 bg-white border-2 border-pink-500 rounded-lg hover:bg-pink-500 hover:text-white"
               to={"/register"}
             >
               Register
