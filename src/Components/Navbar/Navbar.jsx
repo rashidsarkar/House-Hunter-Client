@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/Logo/logo.png";
 
 const Navbar = () => {
   return (
@@ -8,7 +7,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <div>
             <Link to={"/"} className="flex items-center gap-4">
-              <img src={logo} className="w-[70px]" alt="" />
+              <img
+                src={`https://i.ibb.co/VjmMmWM/house-logo-template-design-vector-600nw-741515455.webp`}
+                className="w-[70px]"
+                alt=""
+              />
               <h1 className="text-3xl font-bold text-white">House Hunter</h1>
             </Link>
           </div>
